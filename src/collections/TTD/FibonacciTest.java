@@ -7,7 +7,12 @@ public class FibonacciTest {
     // on testera ici la fonction 
 
     @Test
-    void testFibo1(){
+    void testFibo0(){
         assertEquals("0", Fibonnaci.calcul(0));
+    }
+
+    @Test
+    void testFibo1(){
+        assertEquals("0 1", Fibonnaci.calcul(1));
     }
 }
