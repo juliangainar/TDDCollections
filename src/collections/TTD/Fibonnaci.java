@@ -2,6 +2,10 @@ package collections.TTD;
 
 public class Fibonnaci {
     public int calculer(int borne){
-        return "0";
+        if(borne == 0){
+         return "0";   
+        }else if(borne == 1){
+            return "0 1";
+        }
     }
 }
