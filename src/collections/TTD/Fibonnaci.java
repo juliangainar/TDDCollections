@@ -6,6 +6,8 @@ public class Fibonnaci {
          return "0";   
         }else if(borne == 1){
             return "0 1";
+        }else{
+            return "0 1 1";
         }
     }
 }
