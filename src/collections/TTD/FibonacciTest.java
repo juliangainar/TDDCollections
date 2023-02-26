@@ -21,4 +21,9 @@ public class FibonacciTest {
     void testFibo2(){
         assertEquals("0 1 1", Fibonnaci.calcul(2));
     }
+
+    @Test
+    void testFiboNegatif(){
+        assertEquals("Le nombre doit être positif", Fibonnaci.calcul(-2));
+    }
 }
