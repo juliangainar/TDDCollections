@@ -15,4 +15,10 @@ public class FibonacciTest {
     void testFibo1(){
         assertEquals("0 1", Fibonnaci.calcul(1));
     }
+
+    
+    @Test
+    void testFibo2(){
+        assertEquals("0 1 1", Fibonnaci.calcul(2));
+    }
 }
